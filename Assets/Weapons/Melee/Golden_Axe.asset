@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c1338c4fa098e24faf63f4b94a0af21, type: 3}
+  m_Name: Golden_Axe
+  m_EditorClassIdentifier: 
+  weaponName: Golden Axe
+  Description: 'This sharp axe was made from solid gold by the
+
+    most skillful
+    goblin blacksmiths'
+  maxCombo: 2
+  weaponType: 0
+  damage: 50
+  strength: 60
+  critChance: 25
+  critDamage: 20
+  attackSpeed: 30
+  mana: 0
+  AOEDistance: 2
+  hasAbility: 0
+  manaCost: 0
+  cooldown: 0
+  Projectile: {fileID: 0}
+  projectileSpeed: 0
+  isBoomerang: 0
+  isArrow: 0
+  extraArrows: 0
+  angleBetweenArrows: 0
+  maxArrowPullCharge: 0
+  boomerangComeBackTimer: 0
+  sprite: {fileID: 21300000, guid: c01fd6bc0d2dfd544ae52069fe7a3732, type: 3}
+  Pull0Sprite: {fileID: 0}
+  Pull1Sprite: {fileID: 0}
+  Pull2Sprite: {fileID: 0}
+  WeaponAnimation: {fileID: 9100000, guid: 9fba03ce6fcc1a6438671f21e924f9b7, type: 2}
+  hasSwingEffect: 1
+  swingColor:
+    serializedVersion: 2
+    rgba: 3858804479

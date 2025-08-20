@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c1338c4fa098e24faf63f4b94a0af21, type: 3}
+  m_Name: Superwave_staff
+  m_EditorClassIdentifier: 
+  weaponName: Superwave Staff
+  Description: 'This staff is said to carry a sea orb in it
+
+    which allows it
+    to create siesmic water waves
+
+    with a forceful power and crash all enemies
+
+    in
+    its path.'
+  maxCombo: 1
+  weaponType: 2
+  damage: 350
+  strength: 0
+  critChance: 80
+  critDamage: 200
+  attackSpeed: -100
+  mana: 200
+  AOEDistance: 1
+  hasAbility: 1
+  manaCost: 200
+  cooldown: 0
+  Projectile: {fileID: 1591542770645881794, guid: 69962f7dd326f444ba23b1929bf20069,
+    type: 3}
+  projectileSpeed: 10
+  isBoomerang: 0
+  boomerangComeBackTimer: 0
+  sprite: {fileID: 21300000, guid: 5ec832482c452a546a21a058add17d72, type: 3}
+  WeaponAnimation: {fileID: 9100000, guid: 21010f8f70604d648ba4ef90a2885a2c, type: 2}
+  hasSwingEffect: 1
+  swingColor:
+    serializedVersion: 2
+    rgba: 587185408

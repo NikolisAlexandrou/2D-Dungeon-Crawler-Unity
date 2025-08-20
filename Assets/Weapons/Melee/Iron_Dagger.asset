@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c1338c4fa098e24faf63f4b94a0af21, type: 3}
+  m_Name: Iron_Dagger
+  m_EditorClassIdentifier: 
+  weaponName: Iron Dagger
+  Description: 'A very good choise for fast fighters
+
+    that like close range combat.
+    Despite its
+
+    bad one hit damage it can deal very good
+
+    damage per second.'
+  maxCombo: 3
+  weaponType: 0
+  damage: 25
+  strength: 50
+  critChance: 10
+  critDamage: 15
+  attackSpeed: 80
+  mana: 0
+  AOEDistance: 1.1
+  hasAbility: 0
+  manaCost: 0
+  cooldown: 0
+  Projectile: {fileID: 0}
+  projectileSpeed: 0
+  isBoomerang: 0
+  isArrow: 0
+  extraArrows: 0
+  angleBetweenArrows: 0
+  maxArrowPullCharge: 0
+  boomerangComeBackTimer: 0
+  sprite: {fileID: 21300000, guid: 2399c6cfba3cb3e458a43bebe1e14a72, type: 3}
+  Pull0Sprite: {fileID: 0}
+  Pull1Sprite: {fileID: 0}
+  Pull2Sprite: {fileID: 0}
+  WeaponAnimation: {fileID: 9100000, guid: 9ebee4624ef1e7741850529dfbb31a7d, type: 2}
+  hasSwingEffect: 1
+  swingColor:
+    serializedVersion: 2
+    rgba: 3875536895

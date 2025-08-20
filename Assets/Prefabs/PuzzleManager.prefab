@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &323858301681240728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 323858301681240726}
+  - component: {fileID: 323858301681240729}
+  m_Layer: 0
+  m_Name: PuzzleManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &323858301681240726
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323858301681240728}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.52, y: -1.06, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &323858301681240729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323858301681240728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bd28b8efaaa6b445a58720cbfc9e7a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seconds: 0.3
+  secondsToStart: 0
+  maxTries: 5
+  FakeObject: {fileID: 1188823904012343326, guid: 48a1372fd005acd45bf296f381d079ff,
+    type: 3}
+  Pots:
+  - {fileID: 7114777933009613602, guid: 7dacd4e8729db2b4f8ccbaff66cf54e3, type: 3}
+  - {fileID: 7114777933009613602, guid: 7dacd4e8729db2b4f8ccbaff66cf54e3, type: 3}
+  StartPos: {x: 0.63, y: -1.06}
+  distanceBwPots: 2
+  list: 
+  ballObject: {fileID: 0}
+  otherObject: {fileID: 0}
+  retry: 0

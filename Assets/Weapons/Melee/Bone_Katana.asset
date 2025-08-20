@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c1338c4fa098e24faf63f4b94a0af21, type: 3}
+  m_Name: Bone_Katana
+  m_EditorClassIdentifier: 
+  weaponName: Bone Katana
+  Description: 'This sharp axe was made from solid gold by the
+
+    most skillful
+    goblin blacksmiths'
+  maxCombo: 3
+  weaponType: 0
+  damage: 60
+  strength: 40
+  critChance: 40
+  critDamage: 35
+  attackSpeed: 60
+  mana: 0
+  AOEDistance: 2
+  hasAbility: 0
+  manaCost: 0
+  cooldown: 0
+  Projectile: {fileID: 0}
+  projectileSpeed: 0
+  isBoomerang: 0
+  isArrow: 0
+  extraArrows: 0
+  angleBetweenArrows: 0
+  maxArrowPullCharge: 0
+  boomerangComeBackTimer: 0
+  sprite: {fileID: 21300000, guid: 8ad4a35313672f64cbb599cb1b030ea1, type: 3}
+  Pull0Sprite: {fileID: 0}
+  Pull1Sprite: {fileID: 0}
+  Pull2Sprite: {fileID: 0}
+  WeaponAnimation: {fileID: 9100000, guid: 95c8f9660334baf47b57947ca4031c23, type: 2}
+  hasSwingEffect: 1
+  swingColor:
+    serializedVersion: 2
+    rgba: 3873892070

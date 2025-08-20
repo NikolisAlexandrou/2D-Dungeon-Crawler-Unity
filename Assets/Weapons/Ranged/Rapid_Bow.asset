@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c1338c4fa098e24faf63f4b94a0af21, type: 3}
+  m_Name: Rapid_Bow
+  m_EditorClassIdentifier: 
+  weaponName: Rapid Bow
+  Description: 'A bow made from very flexible metal
+
+    that can shoot 2x more arrows
+    per second
+
+    than a normal bow'
+  maxCombo: 0
+  weaponType: 1
+  damage: 40
+  strength: 5
+  critChance: 0
+  critDamage: 0
+  attackSpeed: 0
+  mana: 0
+  AOEDistance: 0
+  hasAbility: 0
+  manaCost: 0
+  cooldown: 0
+  Projectile: {fileID: 1591542770645881794, guid: 6932452fa1384bb45899d725fe20ce29,
+    type: 3}
+  projectileSpeed: 8
+  isBoomerang: 0
+  isArrow: 1
+  maxArrowPullCharge: 0.5
+  boomerangComeBackTimer: 0
+  sprite: {fileID: -3938506310327223478, guid: b387dacc92fdb064ea104985ef22fae0, type: 3}
+  Pull0Sprite: {fileID: -7600644087025115875, guid: b387dacc92fdb064ea104985ef22fae0,
+    type: 3}
+  Pull1Sprite: {fileID: -7885209338991237492, guid: b387dacc92fdb064ea104985ef22fae0,
+    type: 3}
+  Pull2Sprite: {fileID: -4017354908910777321, guid: b387dacc92fdb064ea104985ef22fae0,
+    type: 3}
+  WeaponAnimation: {fileID: 0}
+  hasSwingEffect: 0
+  swingColor:
+    serializedVersion: 2
+    rgba: 0

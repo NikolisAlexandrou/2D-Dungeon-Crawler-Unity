@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cba9331939493244593ebcd84cd874d8, type: 3}
+  m_Name: PotGuessPuzzle
+  m_EditorClassIdentifier: 
+  type: 2
+  RoomLayout: {fileID: 1583522758451873879, guid: 027583c729d577843b5b1ff129f8d742,
+    type: 3}
+  chestLocation: {x: 1.5, y: 6.5}
+  Obstacles: {fileID: 0}
+  Enemies: []
+  EnemySpawnPoints: []
+  minEnemies: 0
+  maxEnemies: 0
+  chanceToSpawn: 0
+  floorNumber: 1

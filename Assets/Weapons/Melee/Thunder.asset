@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c1338c4fa098e24faf63f4b94a0af21, type: 3}
+  m_Name: Thunder
+  m_EditorClassIdentifier: 
+  weaponName: Thunder
+  Description: "A Sword that was created in 60 microseconds by \nthe great Storm.
+    It contains the power of lightning\nbut it consumes mana as it deals MASSIVE
+    amounts\nof damage"
+  maxCombo: 3
+  weaponType: 0
+  damage: 200
+  strength: 100
+  critChance: 20
+  critDamage: 50
+  attackSpeed: 90
+  mana: 100
+  AOEDistance: 1.5
+  hasAbility: 1
+  manaCost: 10
+  cooldown: 0
+  Projectile: {fileID: 0}
+  projectileSpeed: 0
+  isBoomerang: 0
+  isArrow: 0
+  extraArrows: 0
+  angleBetweenArrows: 0
+  maxArrowPullCharge: 0
+  boomerangComeBackTimer: 0
+  sprite: {fileID: -8105560202311982947, guid: bac3eaa9f1c225e469f174461800383d, type: 3}
+  Pull0Sprite: {fileID: 0}
+  Pull1Sprite: {fileID: 0}
+  Pull2Sprite: {fileID: 0}
+  WeaponAnimation: {fileID: 9100000, guid: 9ebee4624ef1e7741850529dfbb31a7d, type: 2}
+  hasSwingEffect: 1
+  swingColor:
+    serializedVersion: 2
+    rgba: 4294961920

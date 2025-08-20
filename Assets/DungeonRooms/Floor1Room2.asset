@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cba9331939493244593ebcd84cd874d8, type: 3}
+  m_Name: Floor1Room2
+  m_EditorClassIdentifier: 
+  type: 0
+  RoomLayout: {fileID: 5230546030004582433, guid: b0b1d2128a7a2e445aacc695df42dc26,
+    type: 3}
+  chestLocation: {x: -6, y: 9.3}
+  Obstacles: {fileID: 0}
+  Enemies:
+  - {fileID: 883048811400327995, guid: c95578355c2797847a580bc5d54ded3d, type: 3}
+  - {fileID: 2105949161903987695, guid: 5b8adad5c1e856a4c89b0c20d6e2e8b7, type: 3}
+  - {fileID: 2959140824875997928, guid: 86ebeac6988ae244fbae6b16ae71da2b, type: 3}
+  EnemySpawnPoints: []
+  minEnemies: 10
+  maxEnemies: 10
+  chanceToSpawn: 0
+  floorNumber: 1

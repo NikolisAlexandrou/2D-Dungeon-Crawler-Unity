@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 170fc980bbbe87e43a9eafee97f5cde2, type: 3}
+  m_Name: SpawnMinions
+  m_EditorClassIdentifier: 
+  name: SpawnMinions
+  distance: 5
+  isUsingAbility: 0
+  abilityChargeDelay: 1
+  abilityDuration: 2
+  abilitySpeed: 0
+  hasCooldown: 1
+  abilityCooldown: 15
+  attackCD: 0
+  attackCDTimer: 0.5
+  minions:
+  - {fileID: 8926730848771265574, guid: e4a1dab2c71f08c4b9148c9a7c542dcb, type: 3}
+  - {fileID: 883048811400327995, guid: c95578355c2797847a580bc5d54ded3d, type: 3}
+  - {fileID: 2959140824875997928, guid: 86ebeac6988ae244fbae6b16ae71da2b, type: 3}

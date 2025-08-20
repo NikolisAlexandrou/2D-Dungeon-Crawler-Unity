@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c1338c4fa098e24faf63f4b94a0af21, type: 3}
+  m_Name: Flaming_Wand
+  m_EditorClassIdentifier: 
+  weaponName: Flaming Wand
+  Description: 'This wand was built using special volcanic
+
+    orbs that can react
+    with fire magic and create
+
+    powerful fire balls. The reaction needs time
+    and mana
+
+    to occure.'
+  maxCombo: 1
+  weaponType: 2
+  damage: 70
+  strength: 0
+  critChance: 50
+  critDamage: 100
+  attackSpeed: 20
+  mana: 100
+  AOEDistance: 1
+  hasAbility: 1
+  manaCost: 25
+  cooldown: 2
+  Projectile: {fileID: 1591542770645881794, guid: 699a01b7c8863da44a3ec2cf8ba3f0f8,
+    type: 3}
+  projectileSpeed: 20
+  isBoomerang: 0
+  isArrow: 0
+  extraArrows: 0
+  angleBetweenArrows: 0
+  maxArrowPullCharge: 0
+  boomerangComeBackTimer: 0
+  sprite: {fileID: 21300000, guid: 73896acbf55bbd2468efccf4948ee948, type: 3}
+  Pull0Sprite: {fileID: 0}
+  Pull1Sprite: {fileID: 0}
+  Pull2Sprite: {fileID: 0}
+  WeaponAnimation: {fileID: 9100000, guid: 21010f8f70604d648ba4ef90a2885a2c, type: 2}
+  hasSwingEffect: 0
+  swingColor:
+    serializedVersion: 2
+    rgba: 32767
